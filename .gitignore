@@ -1,0 +1,35 @@
+# CMake & Build Artifacts
+build/
+bin/
+lib/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled Binaries & Objects
+*.o
+*.obj
+*.so
+*.a
+*.out
+FlappyBird
+
+# Language Server / LSP Artifacts
+compile_commands.json
+.cache/
+.clangd/
+
+# Editor / IDE Metadata
+.zed/
+.vscode/
+.idea/
+
+# OS-Specific Junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
